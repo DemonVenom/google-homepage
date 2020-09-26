@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<style>
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-nav {
+        margin: 10px;
+    }
+    .image {
+        text-align: center;
+        padding-top: 80px;
+    }
+    .search {
+        text-align: center;
+        padding-top: 10px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0px;
+    }
+    .bottom-footer {
+        display: flex;
+        margin: 10px;
+    }
+    
+</style>
+
+<html>
+    <head>
+        <title>
+            Fake Google 2
+        </title>
+    </head>
+
+    <body>
+        <nav>
+            <nav>
+                <a class="top-nav">About</a>
+                <a class="top-nav">Store</a>
+            </nav>
+            <nav>
+                <a class="top-nav">Gmail</a>
+                <a class="top-nav">Images</a>
+            </nav>
+        </nav>
+        <div class="image">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <div class="search">
+            <input type="text" size="50">
+        </div>
+    </body>
+
+    <footer>
+        <footer>
+            <a class="bottom-footer">Advertising</a>
+            <a class="bottom-footer">Business</a>
+            <a class="bottom-footer">How Search Works</a>
+        </footer>
+        <footer>
+            <a class="bottom-footer">Privacy</a>
+            <a class="bottom-footer">Terms</a>
+            <a class="bottom-footer">Settings</a>
+        </footer>
+
+    </footer>
+</html>
